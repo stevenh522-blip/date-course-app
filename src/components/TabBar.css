@@ -1,0 +1,11 @@
+.tab-bar{
+  display: flex;
+}
+
+.tab-bar button {
+  flex: 1;
+  border: none;
+  background: none;
+  font-size: 12px;
+  padding: 10px 0;
+}

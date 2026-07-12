@@ -1,0 +1,12 @@
+.course-list {
+  background: white;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 14px 18px;
+}
+
+.course-card {
+  background: #fff5f7;
+  border-radius: 14px;
+  padding: 14px;
+}
