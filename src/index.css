@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #f4f4f8;
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  width: 100%;
+  max-width: 430px;
+  min-width: 100vh;
+  position: relative;
+  padding-bottom: 90px;
+}

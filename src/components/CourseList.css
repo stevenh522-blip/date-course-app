@@ -2,7 +2,8 @@
   background: white;
   border-radius: 16px;
   padding: 16px;
-  margin: 14px 18px;
+  margin: 0px 18px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
 .course-card {
