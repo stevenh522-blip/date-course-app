@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><link rel="stylesheet" href="base.css"></head><body>
+<div class="phone">
+<div class="statusbar"><span>12:13</span><span>●●● 📶 🔋</span></div>
+<div style="padding:8px 22px 14px;">
+  <div style="font-size:26px;font-weight:800;color:#1a1a2e;letter-spacing:-0.5px;">우리 데이트 🩷</div>
+  <div style="font-size:13px;color:#8a8a99;margin-top:2px;">시작해볼까?</div>
+</div>
+<div class="scroll" style="padding:0 18px 30px;">
+  <!-- 마이 노트 (V1 최종: 각 영역 [+], 항목은 평소 깔끔 / 탭하면 그 항목에만 ✏️🗑️) -->
+  <div class="card">
+    <div class="card-title">📌 마이 노트</div>
+
+    <!-- 기념일 -->
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;">
+      <span style="font-size:12px;font-weight:700;color:#8a8a99;">🎂 기념일</span>
+      <span style="color:#ff6a8a;font-size:20px;font-weight:700;padding:0 4px;">＋</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:8px;padding:10px 12px;background:#fff5f7;border-radius:12px;margin-bottom:10px;">
+      <span style="flex:1;font-size:14px;color:#33333d;">여친 생일 <b style="color:#ff6a8a;">D-16</b> <span style="font-size:11px;color:#c0aab2;">🔁매년</span></span>
+    </div>
+
+    <!-- 할 일 -->
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;">
+      <span style="font-size:12px;font-weight:700;color:#8a8a99;">✅ 할 일</span>
+      <span style="color:#ff6a8a;font-size:20px;font-weight:700;padding:0 4px;">＋</span>
+    </div>
+    <!-- 탭된 항목 예시: 이 항목만 ✏️🗑️ 노출 + 살짝 강조 -->
+    <div style="display:flex;align-items:center;gap:8px;padding:10px 12px;background:#fff;border:1.5px solid #ffb8c9;border-radius:12px;margin-bottom:6px;">
+      <span style="font-size:16px;">☐</span>
+      <span style="flex:1;font-size:14px;color:#33333d;">생일 선물 예약하기</span>
+      <span style="font-size:14px;">✏️</span>
+      <span style="font-size:14px;">🗑️</span>
+    </div>
+    <div style="text-align:center;font-size:10px;color:#c0c0cd;margin-bottom:6px;">↑ 탭한 항목만 이렇게 ✏️🗑️ 표시</div>
+    <div style="display:flex;align-items:center;gap:8px;padding:10px 12px;background:#faf9fc;border-radius:12px;margin-bottom:10px;">
+      <span style="font-size:16px;color:#ff6a8a;">☑</span>
+      <span style="flex:1;font-size:14px;color:#b0b0bd;text-decoration:line-through;">목도리 사기</span>
+    </div>
+
+    <!-- 여친 정보 -->
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;">
+      <span style="font-size:12px;font-weight:700;color:#8a8a99;">💝 여친 정보</span>
+      <span style="color:#ff6a8a;font-size:20px;font-weight:700;padding:0 4px;">＋</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:8px;padding:10px 12px;background:#faf9fc;border-radius:12px;">
+      <span style="flex:1;font-size:14px;color:#33333d;">갑각류 알레르기</span>
+    </div>
+  </div>
+
+  <!-- 새 코스 버튼 → 화면1 -->
+  <button class="primary-btn" style="margin-bottom:14px;">＋ 새 데이트 코스 만들기</button>
+
+  <!-- 예정 코스 (탭 → 화면4 보기모드) -->
+  <div class="card">
+    <div class="card-title">📅 예정된 코스</div>
+    <div style="display:flex;align-items:center;gap:12px;padding:14px;background:linear-gradient(135deg,#fff5f7,#fef0f3);border-radius:14px;">
+      <span style="font-size:26px;">🌸</span>
+      <div style="flex:1;">
+        <div style="font-size:15px;font-weight:700;color:#1a1a2e;">우에노 데이트</div>
+        <div style="font-size:12px;color:#8a8a99;margin-top:2px;">7/11 (토) · 12:00~23:00 · 4곳</div>
+      </div>
+      <span style="color:#c0c0cd;">›</span>
+    </div>
+  </div>
+</div>
+<div style="position:absolute;bottom:0;left:0;right:0;height:84px;background:rgba(255,255,255,0.92);border-top:1px solid #eaeaef;display:flex;padding:10px 0 24px;">
+  <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:10px;color:#ff6a8a;"><span style="font-size:22px;">🏠</span>홈</div>
+  <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:10px;color:#b0b0bd;"><span style="font-size:22px;">🗺️</span>코스</div>
+  <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:10px;color:#b0b0bd;"><span style="font-size:22px;">⭐</span>즐겨찾기</div>
+  <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:10px;color:#b0b0bd;"><span style="font-size:22px;">👤</span>내정보</div>
+</div>
+</div></body></html>
