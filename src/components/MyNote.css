@@ -19,3 +19,22 @@
   margin: 4px 0;
   font-size: 14px;
 }
+
+.dday {
+  color: #ff6a8a;
+  font-weight: bold;
+}
+
+.badge {
+  font-size: 11px;
+  color: #c0aab2;
+}
+
+.check-done {
+  color: #ff6a8a;
+}
+
+.todo-done {
+  color: #b0b0bd;
+  text-decoration: line-through;
+}

@@ -16,12 +16,15 @@ function MyNote () {
       <h2>📌 마이 노트</h2>
       <h3>🎂 기념일</h3>
       {anniversaries.map((item)=>(
-        <p>{item.title}D-16 🔁</p>
+        <p>{item.title} <span className='dday'>D-16</span> <span className='badge'>🔁매년</span></p>
       ))}
 
       <h3>✅ 할 일</h3>
       {todos.map((todo)=>(
-        <p>{todo.done ? "☑" : "☐"}{todo.text}</p>
+        <p>
+          <span className={todo.done ? "check-done" : "" }>{todo.done ? "☑" : "☐"}</span>
+          <span className={todo.done ? "todo-done" : "" }>{todo.text}</span>
+        </p>
       ))}
 
       <h3>💝 여친 정보</h3>
