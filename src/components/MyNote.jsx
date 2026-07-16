@@ -14,12 +14,12 @@ function MyNote () {
   return(
     <section className='my-note'>
       <h2>📌 마이 노트</h2>
-      <h3>🎂 기념일</h3>
+      <h3>🎂 기념일 <button className='plus-button'>+</button></h3>
       {anniversaries.map((item)=>(
         <p>{item.title} <span className='dday'>D-16</span> <span className='badge'>🔁매년</span></p>
       ))}
 
-      <h3>✅ 할 일</h3>
+      <h3>✅ 할 일<button className='plus-button'>+</button></h3>
       {todos.map((todo)=>(
         <p>
           <span className={todo.done ? "check-done" : "" }>{todo.done ? "☑" : "☐"}</span>
@@ -27,7 +27,7 @@ function MyNote () {
         </p>
       ))}
 
-      <h3>💝 여친 정보</h3>
+      <h3>💝 여친 정보<button className='plus-button'>+</button></h3>
       <GirlfriendInfo/>
     </section>
   );
