@@ -10,4 +10,20 @@
   background: #fff5f7;
   border-radius: 14px;
   padding: 14px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.course-list .course-contents {
+  flex: 1;
+}
+
+.course-list .course-icon {
+  font-size: 28px;
+}
+
+.course-list .course-arrow {
+  color: #c0aab2;
+  font-size: 20px;
 }
