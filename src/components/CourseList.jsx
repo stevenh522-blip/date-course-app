@@ -2,7 +2,7 @@ import './CourseList.css'
 
 function CourseList () {
   const courses = [
-    { title: "우에노 데이트", date: "7/12 (토)", count:4, startTime: "12:00", endTime: "23:00" }      
+    { title: "우에노 데이트", date: "7/12 (토)", count:4, startTime: "12:00", endTime: "23:00", region: "우에노" }
   ]
 
   return (
