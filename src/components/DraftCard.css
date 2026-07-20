@@ -1,0 +1,35 @@
+.draft-card {
+  border: 1.5px dashed #ffb8c9;
+  background: #fffafb;
+  border-radius: 12px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.draft-card .draft-icon {
+  font-size: 18px;
+}
+
+.draft-card .draft-contents {
+  flex: 1;
+}
+
+.draft-card .draft-contents h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #3a3a4a;
+}
+
+.draft-card .draft-contents p {
+  font-size: 11px;
+  color: #b0b0bd;
+}
+
+.draft-card .draft-close {
+  color: #b0b0bd;
+  font-size: 12px;
+}

@@ -1,4 +1,5 @@
 import './CourseList.css'
+import DraftCard from './DraftCard';
 
 function CourseList () {
   const courses = [
@@ -8,6 +9,7 @@ function CourseList () {
   return (
     <section className='course-list'>
       <h2>📅 예정된 코스</h2>
+      <DraftCard/>
       {courses.map((course)=>(
         <div className='course-card' key={course.id}>
           <span className='course-icon'>🌸</span>
