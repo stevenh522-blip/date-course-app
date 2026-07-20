@@ -47,3 +47,8 @@
   color: #b0b0bd;
   text-decoration: line-through;
 }
+
+.my-note p.selected {
+  background: #fff;
+  border: 1.5px solid #ffb8c9;
+}

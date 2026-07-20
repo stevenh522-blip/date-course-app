@@ -9,7 +9,10 @@ function GirlfriendInfo ({selected, setSelected}) {
   return (
     <div className='gf-info'>
       {infos.map((info)=> (
-        <p key={info.id} onClick={()=> setSelected(info.id)}>💝{info.text} {selected === info.id ? <span>✏️🗑️</span> : null}</p>
+        <p key={info.id} onClick={()=> setSelected(info.id)} className={selected === info.id ? "selected" : ""}> 
+          {info.text} 
+          {selected === info.id ? <span>✏️🗑️</span> : null}
+        </p>
       ))}
     </div>
   );

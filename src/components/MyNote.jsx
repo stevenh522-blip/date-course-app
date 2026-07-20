@@ -19,7 +19,7 @@ function MyNote () {
       <h2>📌 마이 노트</h2>
       <h3>🎂 기념일<button className='plus-button'>+</button></h3>
       {anniversaries.map((item)=>(
-        <p key={item.id} onClick={()=> {setSelected(item.id)}}>
+        <p key={item.id} onClick={()=> setSelected(item.id)} className={selected === item.id ? "selected" : ""}>
           {item.title}
           <span className='dday'>D-16</span>
           <span className='badge'>🔁매년</span>
@@ -29,7 +29,7 @@ function MyNote () {
 
       <h3>✅ 할 일<button className='plus-button'>+</button></h3>
       {todos.map((todo)=>(
-        <p key={todo.id} onClick={()=> {setSelected(todo.id)}}>
+        <p key={todo.id} onClick={()=> setSelected(todo.id)} className={selected === todo.id ? "selected" : ""}>
           <span className={todo.done ? "check-done" : "" }>{todo.done ? "☑" : "☐"}</span>
           <span className={todo.done ? "todo-done" : "" }>{todo.text}</span> 
           {selected === todo.id ? <span>✏️🗑️</span> : null}

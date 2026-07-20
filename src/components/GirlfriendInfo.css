@@ -4,3 +4,8 @@
   border-radius: 12px;
   margin: 4px 0;
 }
+
+.gf-info p.selected {
+  background: #fff;
+  border: 1.5px solid #ffb8c9;
+}
