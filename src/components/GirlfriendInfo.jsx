@@ -1,15 +1,15 @@
 import './GirlfriendInfo.css'
 
-function GirlfriendInfo () {
+function GirlfriendInfo ({selected, setSelected}) {
   const infos = [
-    { id: "g1", text: "갑각류 알르레기" },
+    { id: "g1", text: "갑각류 알레르기" },
     { id: "g2", text: "단 거 좋아함" },
   ];
 
   return (
     <div className='gf-info'>
       {infos.map((info)=> (
-        <p key={info.id}>💝{info.text}</p>
+        <p key={info.id} onClick={()=> setSelected(info.id)}>💝{info.text} {selected === info.id ? <span>✏️🗑️</span> : null}</p>
       ))}
     </div>
   );
