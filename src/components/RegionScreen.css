@@ -1,0 +1,107 @@
+.region-screen {
+  padding: 16px;
+}
+
+.region-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 4px 16px;
+}
+
+.region-back {
+  font-size: 24px;
+  color: #3a3a4a;
+}
+
+.region-title {
+  font-weight: 800;
+  font-size: 18px;
+  color: #1a1a2e;
+}
+
+.region-step {
+  margin-left: auto;
+  color: #a0a0ad;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.region-search {
+  background-color: #fff;
+  padding: 14px 16px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.search-icon {
+  font-size: 18px;
+}
+
+.region-search input {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex: 1;
+  font-size: 15px;
+}
+
+.region-search input::placeholder {
+  color: #b0b0bd;
+}
+
+.region-card-header {
+  font-weight: 700;
+  color: #9a9aa8;
+  font-size: 12px;
+  margin: 10px 4px;
+}
+
+.region-card-sub {
+  color: #c0c0cd;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.region-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.region-card {
+  background-color: #fff;
+  border-radius: 14px;
+  padding: 18px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #3a3a4a;
+  text-align: left;
+}
+
+.region-card.selected {
+  background-color: #ff6a8a;
+  color: white;
+  font-weight: 800;
+  box-shadow: 0 4px 12px rgba(255,106,138,0.3);
+}
+
+.region-screen .guide {
+  text-align: center;
+  color: #c0c0cd;
+  font-size: 11px;
+}
+
+.region-screen .bottom-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 8px;
+  background-color: #f7f7fa;
+}

@@ -4,8 +4,8 @@
 }
 
 body {
-  font-family: sans-serif;
-  background: #f4f4f8;
+  font-family: -apple-system, 'Segoe UI', 'Hiragino Sans', sans-serif;
+  background: #f7f7fa;
   display: flex;
   justify-content: center;
 }
