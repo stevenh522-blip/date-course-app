@@ -82,6 +82,7 @@
   font-size: 16px;
   color: #3a3a4a;
   text-align: left;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
 .region-card.selected {
@@ -103,5 +104,5 @@
   left: 0;
   right: 0;
   padding-top: 8px;
-  background-color: #f7f7fa;
+  background-color: #f2f2f4;
 }
