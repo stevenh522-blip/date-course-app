@@ -15,7 +15,7 @@ function RegionScreen () {
       <div className='region-card-header'>
         📍 내 지역
         <span className='region-card-sub'>
-         (내정보 탭에서 추가·삭제)
+        (내정보 탭에서 추가·삭제)
         </span>
       </div>
       <div className='region-grid'>

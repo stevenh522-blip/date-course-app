@@ -118,10 +118,12 @@
 
 /* 하단바 — 담은 곳 N곳 + 다음 버튼 (다른 화면과 같은 #f2f2f4 평평 바) */
 .place-screen .bottom-bar {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
+  max-width: 430px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   gap: 10px;
