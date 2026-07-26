@@ -6,6 +6,7 @@ import MyNote from './components/MyNote';
 import CourseList from './components/CourseList';
 import DateTimeScreen from './components/DateTimeScreen';
 import RegionScreen from './components/RegionScreen';
+import PlaceScreen from './components/PlaceScreen';
 
 function App(){
     return (
@@ -13,8 +14,9 @@ function App(){
         {/* 화면1 대조용 임시 — 홈 부품은 Phase 3에서 화면전환 붙일 때 살림 */}
         {/* <Header/> */}
         {/* <MyNote/> */}
-        {/* <DateTimeScreen/> */}
-        <RegionScreen/>
+        {/*<DateTimeScreen/>*/}
+        {/* <RegionScreen/> */}
+        <PlaceScreen/>
         {/* <Button text="+ 새 데이트 코스 만들기"/> */}
         {/* <CourseList/> */}
         {/* <TabBar/> */}

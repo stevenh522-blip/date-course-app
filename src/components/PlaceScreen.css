@@ -1,0 +1,144 @@
+.place-screen {
+  padding: 12px 18px 0;
+}
+
+/* 네비바 — ‹ · 제목 · 3/5 (RegionScreen 헤더와 같은 값) */
+.place-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 4px 16px;
+}
+.place-back {
+  font-size: 24px;
+  color: #3a3a4a;
+}
+.place-title {
+  font-weight: 800;
+  font-size: 18px;
+  color: #1a1a2e;
+}
+.place-step {
+  margin-left: auto;
+  color: #a0a0ad;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* 🔍 검색창 — s2 기준 핑크 테두리 강조 버전 */
+.place-search {
+  background: #fff;
+  border: 2px solid #ff6a8a;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 16px;
+  margin-bottom: 8px;
+  box-shadow: 0 3px 10px rgba(255, 106, 138, 0.12);
+}
+.place-search .search-icon {
+  font-size: 19px;
+}
+.place-search input {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex: 1;
+  font-size: 15px;
+}
+.place-search input::placeholder {
+  color: #b0b0bd;
+}
+
+/* 💝 알레르기 배너 */
+.place-allergy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff5f7;
+  border-radius: 10px;
+  padding: 7px 14px;
+  font-size: 12px;
+  color: #c86a8a;
+  margin-bottom: 10px;
+}
+.place-allergy-arrow {
+  color: #e0a0b0;
+}
+
+/* 칩 줄 — 가로로 나열, 넘치면 아래 줄로 접힘 */
+.place-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 8px;
+}
+/* 칩 기본 — 흰 알약, 회색 글자 */
+.place-chip {
+  background: #fff;
+  color: #6a6a7a;
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+/* 지역 선택됨 — 진회색 */
+.place-chip.on-dark {
+  background: #3a3a4a;
+  color: #fff;
+  font-weight: 600;
+}
+/* 카테고리 선택됨 — 핑크 */
+.place-chip.on-pink {
+  background: #ffe8ee;
+  color: #ff6a8a;
+  font-weight: 700;
+}
+/* + 추가 — 핑크 테두리 */
+.place-chip.add {
+  color: #ff6a8a;
+  border: 1px solid #ffd0dc;
+  padding: 6px 13px;
+  font-weight: 700;
+}
+
+/* ⭐ 즐겨찾기에서 담기 */
+.place-fav-pick {
+  background: #fff;
+  border: 1.5px solid #ffd0dc;
+  border-radius: 12px;
+  padding: 9px;
+  text-align: center;
+  font-size: 13px;
+  color: #ff6a8a;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* 하단바 — 담은 곳 N곳 + 다음 버튼 (다른 화면과 같은 #f2f2f4 평평 바) */
+.place-screen .bottom-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 18px 14px;
+  background-color: #f2f2f4;
+}
+.place-count {
+  font-size: 13px;
+  color: #8a8a99;
+  white-space: nowrap;
+}
+.place-count b {
+  color: #ff6a8a;
+}
+/* Button 부품은 단독 전체폭용(width·margin 내장) → 여기선 flex 자식으로 쓰려고 덮어씀 */
+.place-screen .bottom-bar .main-btn {
+  flex: 1;
+  width: auto;
+  margin: 0;
+}
