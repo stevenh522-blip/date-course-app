@@ -64,6 +64,7 @@ function PlaceScreen() {
       <div className='place-fav-pick'>⭐ 즐겨찾기에서 담기</div>
       <PlaceCard
         place={museum}
+        meta={`⭐${museum.rating} · ${museum.closingTime} · ${museum.priceLevel}`}
         emoji='🌳'
         gradient='linear-gradient(135deg, #a8d8a8, #88c888)'
         isFavorited={true}
@@ -71,6 +72,7 @@ function PlaceScreen() {
       />
       <PlaceCard
         place={artMuseum}
+        meta={`⭐${artMuseum.rating} · ${artMuseum.closingTime} · ${artMuseum.priceLevel}`}
         emoji='🎨'
         gradient='linear-gradient(135deg, #c8a8ff, #a888ff)'
         isFavorited={false}

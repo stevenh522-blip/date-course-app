@@ -12,7 +12,7 @@ function PlaceCard(props) {
       </div>
       <div className='place-info'>
         <div className='place-name'>{place.name}</div>
-        <div className='place-meta'>⭐{place.rating} · {place.closingTime} · {place.priceLevel}</div>
+        <div className='place-meta'>{props.meta}</div>
       </div>
       <div className={props.isAdded ? 'place-add added' : 'place-add'}>
         {props.isAdded ? '담김 ✓' : '+'}

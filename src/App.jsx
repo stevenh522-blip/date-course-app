@@ -7,6 +7,7 @@ import CourseList from './components/CourseList';
 import DateTimeScreen from './components/DateTimeScreen';
 import RegionScreen from './components/RegionScreen';
 import PlaceScreen from './components/PlaceScreen';
+import FoodScreen from './components/FoodScreen';
 
 function App(){
     return (
@@ -16,7 +17,8 @@ function App(){
         {/* <MyNote/> */}
         {/*<DateTimeScreen/>*/}
         {/* <RegionScreen/> */}
-        <PlaceScreen/>
+        {/* <PlaceScreen/> */}
+        <FoodScreen/>
         {/* <Button text="+ 새 데이트 코스 만들기"/> */}
         {/* <CourseList/> */}
         {/* <TabBar/> */}
