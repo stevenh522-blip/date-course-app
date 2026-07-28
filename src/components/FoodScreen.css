@@ -4,3 +4,34 @@
   color: #9a9aa8;
   margin: 2px 4px 7px;
 }
+
+/* 지도 자리 — Phase 5에서 구글 지도로 교체. 지금은 공간 차지용 빈 박스 */
+.food-map {
+  background: linear-gradient(135deg, #e8f0e8, #d8e8d8);
+  border-radius: 14px;
+  height: 150px;
+  margin-bottom: 8px;
+}
+
+/* 카테고리 칩 — 흰 알약(꺼짐). 컨테이너는 .place-chips 재활용 */
+.food-cat {
+  background: #fff;
+  color: #6a6a7a;
+  border-radius: 18px;
+  padding: 6px 12px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+/* 켜짐 — 꽉 찬 핑크 + 굵게 */
+.food-cat.on {
+  background: #ff6a8a;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* 가격 필터 트리거 (¥ 칩 펼침은 Phase 5) */
+.food-price {
+  font-size: 12px;
+  color: #8a8a99;
+  margin-bottom: 8px;
+}
